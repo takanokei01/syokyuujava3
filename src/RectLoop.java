@@ -9,6 +9,9 @@ public class RectLoop extends MyFrame {
 			if(i == 4) {
 				fillRect(x, 100, 10, 100);
 			}
+			else if(i == 7) {
+				fillRect(x, 60, 10, 100);
+			}
 			else {
 				fillRect(x, 80, 10, 100);
 			}
