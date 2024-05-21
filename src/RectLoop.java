@@ -6,7 +6,7 @@ public class RectLoop extends MyFrame {
 		while(x <= 170) {
 			System.out.println(x);
 		fillRect(x, 80, 10, 100);
-		x += 20;
+		//x += 20; //ここを書き忘れると
 		}
 	}
 
