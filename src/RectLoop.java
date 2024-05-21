@@ -6,7 +6,7 @@ public class RectLoop extends MyFrame {
 		int i;
 		for( i = 0 ; i < 9 ; i++) {
 			
-			if(i == 4 || i == 7) {
+			if(i >= 4 && i <= 7) {
 				fillRect(x, 100, 10, 100);
 			}
 			
