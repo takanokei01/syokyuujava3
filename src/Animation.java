@@ -5,17 +5,27 @@ public class Animation extends MyFrame {
 		int y = 100;
 		
 		while(true) {
-			while(x<=170) {
+			while(x<=100) {
 			clear();
 			setColor(0,128,0);
 			fillRect(x,y,10,100);
 			x +=5;
+			y +=5;
 			sleep(0.1);
 			}
-			for(int i = 0; i<6; i++) {
+			while(x<=170) {
 				clear();
 				setColor(0,128,0);
 				fillRect(x,y,10,100);
+				x +=5;
+				y -=5;
+				sleep(0.1);
+			}
+			while(x>=100) {
+				clear();
+				setColor(0,128,0);
+				fillRect(x,y,10,100);
+				x -=5;
 				y +=5;
 				sleep(0.1);
 			}
@@ -24,13 +34,7 @@ public class Animation extends MyFrame {
 				setColor(0,128,0);
 				fillRect(x,y,10,100);
 				x -=5;
-				sleep(0.1);
-			}
-			for(int i = 0; i<6; i++) {
-				clear();
-				setColor(0,128,0);
-				fillRect(x,y,10,100);
-				y +=5;
+				y -=5;
 				sleep(0.1);
 			}
 			
