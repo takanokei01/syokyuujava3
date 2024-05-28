@@ -13,9 +13,10 @@ public class DisplayFaceObject extends MyFrame {
 			   faces[j].draw(this);
 			}
 			
-			faces[0].move();
-			faces[1].move();
-			faces[2].move();
+			for(int j= 0; j<3; j++)
+			{
+				faces[j].move();
+			}
 			sleep(0.1);
 		}
 	}
